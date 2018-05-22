@@ -1,0 +1,12 @@
+apiVersion: "stable.agones.dev/v1alpha1"
+kind: GameServer
+metadata:
+  name: "factorio"
+spec:
+  portPolicy: "dynamic"
+  containerPort: 34197
+  template:
+    spec:
+      containers:
+      - name: factorio
+        image: outlaw11a/agones-factorio
