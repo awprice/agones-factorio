@@ -5,6 +5,8 @@ metadata:
 spec:
   portPolicy: "dynamic"
   containerPort: 34197
+  container: "factorio"
+  protocol: "UDP"
   template:
     spec:
       containers:

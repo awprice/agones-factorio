@@ -1,2 +1,4 @@
 main
 .idea/
+vendor/
+agones-factorio-sdk
